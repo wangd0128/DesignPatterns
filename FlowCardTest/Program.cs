@@ -30,6 +30,7 @@ namespace FlowCardTest
             {
                 var str = Console.ReadLine();
                 var op = int.TryParse(str, out int _op) ? _op : 0;
+                //模拟场景, 每道工序 都是在等待前端 输入 才会流转
                 if(op == flowCard.currentOp)
                 {
                     flowCard.autoResetEvent.Set();
