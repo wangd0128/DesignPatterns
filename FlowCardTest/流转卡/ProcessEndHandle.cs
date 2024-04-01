@@ -11,8 +11,6 @@ namespace FlowCardTest.流转卡
     {
         public int op { get; set; }
 
-        public event Action<PROCESS> ProcessHandled;
-
         public void SetOp(int op)
         {
             this.op = op;
