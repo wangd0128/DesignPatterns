@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FlowCardTest", "FlowCardTes
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ApproveProcess", "ApproveProcess\ApproveProcess.csproj", "{9710425B-73CC-4D4C-85A9-58033BA6DDA2}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SingtonTest", "SingtonTest\SingtonTest.csproj", "{213E424C-1342-4775-A7C0-0384F5D2E512}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{9710425B-73CC-4D4C-85A9-58033BA6DDA2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9710425B-73CC-4D4C-85A9-58033BA6DDA2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9710425B-73CC-4D4C-85A9-58033BA6DDA2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{213E424C-1342-4775-A7C0-0384F5D2E512}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{213E424C-1342-4775-A7C0-0384F5D2E512}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{213E424C-1342-4775-A7C0-0384F5D2E512}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{213E424C-1342-4775-A7C0-0384F5D2E512}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
