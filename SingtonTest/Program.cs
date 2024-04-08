@@ -53,6 +53,13 @@ namespace SingtonTest
                 Console.WriteLine($"4Thread:{Thread.CurrentThread.ManagedThreadId}   {asyncLocal.Value}");
             });
 
+            Thread thread = new Thread(() => { 
+                Thread.Sleep(2000);
+                Console.WriteLine($"5"); 
+            });
+            thread.Start();
+            thread.Join();
+            Console.WriteLine("over");
             //Console.WriteLine($"{configs.Select(p => p.Id).Distinct().Count()}");
             Console.ReadLine();
         }
